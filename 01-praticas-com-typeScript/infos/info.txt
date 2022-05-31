@@ -1,0 +1,3 @@
+Desbloquear execução se scripts:
+
+https://social.technet.microsoft.com/wiki/pt-br/contents/articles/29932.como-habilitar-a-execucao-de-scripts-em-powershell.aspx
