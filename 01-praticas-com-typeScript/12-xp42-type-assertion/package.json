@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "npm": "^8.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
