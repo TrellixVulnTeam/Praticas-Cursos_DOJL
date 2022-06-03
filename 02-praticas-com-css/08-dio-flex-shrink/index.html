@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/02-praticas-com-css/08-dio-flex-shrink/css/index.css">
+    <title>Flex Shrink</title>
+</head>
+<body>
+    <h1>flex shrink: 1</h1>
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">Um texto genêrico para usar como exemplo.</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+
+    <h1>flex shrink: 0 / basis: 100px</h1>
+    <div class="container">
+        <div class="item s-0 fg-1">A</div>
+        <div class="item s-0 fg-1">B ABCDE</div>
+        <div class="item s-0 fg-1">C ABCDE</div>
+        <div class="item s-0 fg-1">D</div>
+        <div class="item s-0 fg-1">E</div>
+    </div>
+
+    <h1>flex shrink: mix / basis: 100px</h1>
+    <div class="container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-2 fg-1">B ABCDE</div>
+        <div class="item s-2 fg-1">C</div>
+        <div class="item s-3 fg-1">D</div>
+    </div>
+</body>
+</html>
