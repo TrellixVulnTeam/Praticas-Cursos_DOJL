@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/02-praticas-com-css/09-dio-flex/css/index.css">
+    <title>Flex</title>
+</head>
+<body>
+    <h1>flex: 1</h1>
+    <div class="container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">BB</div>
+        <div class="item flex-1">CCC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EF</div>
+    </div>
+
+    <h1>flex: mix</h1>
+    <div class="container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">BB</div>
+        <div class="item flex-2">CCC</div>
+        <div class="item flex-2">D</div>
+        <div class="item flex-1">EF</div>
+    </div>
+
+    <h1>width ignorado -> basis = 0</h1>
+    <div class="container">
+        <div class="item flex-1 largura">A</div>
+        <div class="item flex-1 largura">BB</div>
+        <div class="item flex-2 largura">CCC</div>
+        <div class="item flex-2 largura">D</div>
+        <div class="item flex-1 largura">EF</div>
+    </div>
+</body>
+</html>
