@@ -1,4 +1,4 @@
-class Data {
+        class Data {
     public dia: number; //em classes eu posso definir os modificadores de acesso, tornando um atributo público (que já é o padrão) ou não.
     private mes: number;
     ano: number;
