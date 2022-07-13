@@ -1,3 +1,4 @@
+import Express, { Application } from "express";
 import { mongoDBConection } from "../database";
 
 import BaseRoutes from "./BaseRoutes";
