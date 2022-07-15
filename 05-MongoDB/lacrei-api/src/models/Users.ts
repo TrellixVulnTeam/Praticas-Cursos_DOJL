@@ -1,4 +1,5 @@
 import { Schema, model } from "mongoose";
+import { IMyImages } from "./Images";
 
 export interface IUser {
   name: string;
@@ -6,6 +7,7 @@ export interface IUser {
   senha: string;
   state: string;
   occupation: string;
+  images: Schema.Types.ObjectId | IMyImages;
 }
 
 const userSchema = new Schema<IUser>(
@@ -25,6 +27,12 @@ const userSchema = new Schema<IUser>(
     occupation: {
       type: Schema.Types.String,
     },
+    images: [{
+      type: Schema.Types.ObjectId,
+      ref: "Images",
+    }
+    ]
+    
   },
   { timestamps: true }
 );
